@@ -6,7 +6,7 @@
 
     <groupId>pw.twpi</groupId>
     <artifactId>whitelistsync2</artifactId>
-    <version>1.16.1-2.2.1</version>
+    <version>1.16.1-2.2.2</version>
     <build>
         <plugins>
             <plugin>
