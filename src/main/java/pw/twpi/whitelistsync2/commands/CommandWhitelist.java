@@ -25,7 +25,6 @@ public class CommandWhitelist implements CommandExecutor {
     }
 
     public boolean onCommand(CommandSender sender, Command command, String primaryCommand, String[] args) {
-        if (sender.isOp()) {
             if (args.length > 0) {
                 //Action for showing list
                 if (args[0].equalsIgnoreCase("list")) {
@@ -100,11 +99,6 @@ public class CommandWhitelist implements CommandExecutor {
             } else {
                 return false;
             }
-
-        } else {
-            sender.sendMessage("You must be an op to use this command.");
-            return false;
-        }
 
         return true;
     }
