@@ -1,3 +1,5 @@
+### Tweaked to allow use on LuckPerms servers (no OPs)
+
 _Are you a server owner who is sick of adding individual players to each of your 100 forge servers? Wait you only have 2 forge servers? Well this mod can help you still!_
 
 Introducing Whitelist Sync!
